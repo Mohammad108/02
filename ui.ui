@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TraderBotApp</class>
+ <widget class="QMainWindow" name="TraderBotApp">
+  <property name="geometry">
+   <rect><x>0</x><y>0</y><width>500</width><height>400</height></rect>
+  </property>
+  <property name="windowTitle"><string>RL Trader Bot</string></property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTextEdit" name="log">
+    <property name="geometry">
+     <rect><x>20</x><y>150</y><width>460</width><height>200</height></rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="symbolInput">
+    <property name="geometry">
+     <rect><x>20</x><y>30</y><width>150</width><height>30</height></rect>
+    </property>
+    <property name="placeholderText"><string>مثلاً EURUSD</string></property>
+   </widget>
+   <widget class="QPushButton" name="trainButton">
+    <property name="geometry">
+     <rect><x>200</x><y>30</y><width>100</width><height>30</height></rect>
+    </property>
+    <property name="text"><string>آموزش مدل</string></property>
+   </widget>
+   <widget class="QPushButton" name="loadButton">
+    <property name="geometry">
+     <rect><x>200</x><y>70</y><width>100</width><height>30</height></rect>
+    </property>
+    <property name="text"><string>بارگذاری مدل</string></property>
+   </widget>
+   <widget class="QPushButton" name="tradeButton">
+    <property name="geometry">
+     <rect><x>200</x><y>110</y><width>100</width><height>30</height></rect>
+    </property>
+    <property name="text"><string>ترید زنده</string></property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
